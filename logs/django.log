@@ -1,0 +1,516 @@
+INFO 2025-08-17 19:35:44,385 autoreload 7376 19460 Watching for file changes with StatReloader
+INFO 2025-08-17 19:35:47,032 autoreload 7376 19460 C:\Users\kerem\Downloads\yangin_ihbar_backend-main\yisis_backend\settings.py changed, reloading.
+INFO 2025-08-17 19:35:47,733 autoreload 26436 26168 Watching for file changes with StatReloader
+INFO 2025-08-17 19:35:56,549 autoreload 11424 29184 Watching for file changes with StatReloader
+INFO 2025-08-17 19:36:01,871 basehttp 26436 16664 "GET /admin/ HTTP/1.1" 302 0
+INFO 2025-08-17 19:36:01,940 basehttp 26436 16664 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4185
+INFO 2025-08-17 19:36:07,413 basehttp 26436 16664 "GET /admin/ HTTP/1.1" 302 0
+INFO 2025-08-17 19:36:07,425 basehttp 26436 16664 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4185
+INFO 2025-08-17 19:36:10,510 basehttp 26436 16664 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2025-08-17 19:36:10,561 basehttp 26436 16664 "GET /admin/ HTTP/1.1" 200 11680
+INFO 2025-08-17 19:37:42,859 autoreload 26436 26168 C:\Users\kerem\Downloads\yangin_ihbar_backend-main\yisis_backend\settings.py changed, reloading.
+INFO 2025-08-17 19:37:43,513 autoreload 23272 24304 Watching for file changes with StatReloader
+INFO 2025-08-17 19:37:50,534 autoreload 23272 24304 C:\Users\kerem\Downloads\yangin_ihbar_backend-main\yisis_backend\settings.py changed, reloading.
+INFO 2025-08-17 19:37:51,221 autoreload 2608 23352 Watching for file changes with StatReloader
+INFO 2025-08-17 19:38:10,990 autoreload 2608 23352 C:\Users\kerem\Downloads\yangin_ihbar_backend-main\yisis_app\views.py changed, reloading.
+INFO 2025-08-17 19:38:11,665 autoreload 24896 20908 Watching for file changes with StatReloader
+INFO 2025-08-17 19:38:14,290 autoreload 24896 20908 C:\Users\kerem\Downloads\yangin_ihbar_backend-main\yisis_app\views.py changed, reloading.
+INFO 2025-08-17 19:38:15,014 autoreload 16256 17528 Watching for file changes with StatReloader
+INFO 2025-08-17 19:38:17,668 autoreload 16256 17528 C:\Users\kerem\Downloads\yangin_ihbar_backend-main\yisis_app\views.py changed, reloading.
+INFO 2025-08-17 19:38:18,368 autoreload 10924 11916 Watching for file changes with StatReloader
+INFO 2025-08-17 19:38:26,436 autoreload 10924 11916 C:\Users\kerem\Downloads\yangin_ihbar_backend-main\yisis_app\views.py changed, reloading.
+INFO 2025-08-17 19:38:27,104 autoreload 1248 31464 Watching for file changes with StatReloader
+INFO 2025-08-17 19:38:32,928 autoreload 1248 31464 C:\Users\kerem\Downloads\yangin_ihbar_backend-main\yisis_app\views.py changed, reloading.
+INFO 2025-08-17 19:38:33,594 autoreload 14580 18588 Watching for file changes with StatReloader
+INFO 2025-08-17 19:38:40,532 autoreload 14580 18588 C:\Users\kerem\Downloads\yangin_ihbar_backend-main\yisis_app\views.py changed, reloading.
+INFO 2025-08-17 19:38:41,241 autoreload 9220 18632 Watching for file changes with StatReloader
+INFO 2025-08-17 19:38:46,045 autoreload 9220 18632 C:\Users\kerem\Downloads\yangin_ihbar_backend-main\yisis_app\views.py changed, reloading.
+INFO 2025-08-17 19:38:46,766 autoreload 21304 29436 Watching for file changes with StatReloader
+INFO 2025-08-17 19:38:53,981 autoreload 27800 29424 Watching for file changes with StatReloader
+INFO 2025-08-17 19:38:56,194 basehttp 21304 14548 code 400, message Bad request version ('::\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06sªª\x00\x00\x00')
+ERROR 2025-08-17 19:38:56,195 basehttp 21304 14548 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2025-08-17 19:38:56,199 basehttp 21304 17356 code 400, message Bad request version ('\x00\x02\x01\x00\x00')
+ERROR 2025-08-17 19:38:56,199 basehttp 21304 17356 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2025-08-17 19:39:05,526 basehttp 21304 4436 "GET /admin/ HTTP/1.1" 200 11680
+INFO 2025-08-17 19:39:10,302 basehttp 21304 4436 "POST /admin/logout/ HTTP/1.1" 200 3580
+INFO 2025-08-17 19:39:12,321 basehttp 21304 4436 "GET /admin/ HTTP/1.1" 302 0
+INFO 2025-08-17 19:39:12,377 basehttp 21304 4436 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4185
+INFO 2025-08-17 19:39:15,848 basehttp 21304 4436 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2025-08-17 19:39:15,884 basehttp 21304 4436 "GET /admin/ HTTP/1.1" 200 11680
+INFO 2025-08-17 19:39:19,744 basehttp 21304 17528 code 400, message Bad request version ('.\x8a')
+ERROR 2025-08-17 19:39:19,745 basehttp 21304 17528 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2025-08-17 19:39:19,746 basehttp 21304 16256 code 400, message Bad request version ('2ÞÜ\x167Ö\x17')
+ERROR 2025-08-17 19:39:19,751 basehttp 21304 16256 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2025-08-17 19:39:21,685 basehttp 21304 18596 code 400, message Bad request version ('\x8a\x8a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x063')
+INFO 2025-08-17 19:39:21,685 basehttp 21304 2832 code 400, message Bad request version ('ºº\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06s\x9a\x9a\x00\x00\x00')
+ERROR 2025-08-17 19:39:21,685 basehttp 21304 18596 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2025-08-17 19:39:21,685 basehttp 21304 2832 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2025-08-17 19:39:21,693 basehttp 21304 26016 code 400, message Bad request version ('zz\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06\x93')
+INFO 2025-08-17 19:39:21,694 basehttp 21304 24784 code 400, message Bad request version ('\x02h2\x08http/1.1\x00+\x00\x07\x06')
+ERROR 2025-08-17 19:39:21,695 basehttp 21304 26016 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2025-08-17 19:39:21,695 basehttp 21304 24784 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2025-08-17 19:39:25,331 basehttp 21304 17700 code 400, message Bad request version ('ß\x00-\x00\x02\x01\x01\x00')
+ERROR 2025-08-17 19:39:25,335 basehttp 21304 17700 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2025-08-17 19:39:25,336 basehttp 21304 27672 code 400, message Bad request version ('è§\x94i»\x1bÚG5´\x8b=0ú*¤¬:ï\x00f0')
+ERROR 2025-08-17 19:39:25,336 basehttp 21304 27672 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2025-08-17 19:39:30,652 basehttp 21304 31024 code 400, message Bad request version ('¨S\\ó$\x7fáÄÿw03\x10W/W©øñ£C')
+ERROR 2025-08-17 19:39:30,653 basehttp 21304 31024 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2025-08-17 19:39:30,656 basehttp 21304 31248 code 400, message Bad request version ('Ñ\x83×Rº\x98#\x93\x8d(V\x06\x00S¿ö\x89gV\x98\x8d+0\x14Å\x18ZtL¬ûD*,Äõ0*\x04\x19\x073·n"Æ|dùÉ>')
+ERROR 2025-08-17 19:39:30,657 basehttp 21304 31248 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2025-08-17 19:40:14,927 autoreload 21304 29436 C:\Users\kerem\Downloads\yangin_ihbar_backend-main\yisis_backend\settings.py changed, reloading.
+INFO 2025-08-17 19:40:15,621 autoreload 21532 23084 Watching for file changes with StatReloader
+INFO 2025-08-17 19:40:15,762 autoreload 27800 29424 C:\Users\kerem\Downloads\yangin_ihbar_backend-main\yisis_backend\settings.py changed, reloading.
+INFO 2025-08-17 19:40:16,365 autoreload 18968 16064 Watching for file changes with StatReloader
+INFO 2025-08-17 19:40:21,157 autoreload 18968 16064 C:\Users\kerem\Downloads\yangin_ihbar_backend-main\yisis_backend\settings.py changed, reloading.
+INFO 2025-08-17 19:40:21,482 autoreload 21532 23084 C:\Users\kerem\Downloads\yangin_ihbar_backend-main\yisis_backend\settings.py changed, reloading.
+INFO 2025-08-17 19:40:21,821 autoreload 19336 25068 Watching for file changes with StatReloader
+INFO 2025-08-17 19:40:22,117 autoreload 19764 14576 Watching for file changes with StatReloader
+INFO 2025-08-17 19:40:27,683 autoreload 19336 25068 C:\Users\kerem\Downloads\yangin_ihbar_backend-main\yisis_backend\settings.py changed, reloading.
+INFO 2025-08-17 19:40:28,049 autoreload 19764 14576 C:\Users\kerem\Downloads\yangin_ihbar_backend-main\yisis_backend\settings.py changed, reloading.
+INFO 2025-08-17 19:40:28,500 autoreload 20948 27032 Watching for file changes with StatReloader
+INFO 2025-08-17 19:40:28,688 autoreload 19488 4588 Watching for file changes with StatReloader
+INFO 2025-08-17 19:40:35,911 autoreload 28548 26236 Watching for file changes with StatReloader
+INFO 2025-08-17 19:40:41,247 basehttp 20948 23400 code 400, message Bad request version ('::\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x063ÊÊ\x00\x00\x003\x04ï\x04í')
+ERROR 2025-08-17 19:40:41,248 basehttp 20948 23400 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2025-08-17 19:40:41,252 basehttp 20948 24060 code 400, message Bad request version ('ü\x88\x94¾\x80\x08%¡zLú4üÕ\x84|[T)R\x8bH\\\x94×B\x82')
+ERROR 2025-08-17 19:40:41,252 basehttp 20948 24060 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2025-08-17 19:40:51,391 basehttp 20948 5464 "GET /admin/ HTTP/1.1" 200 11680
+INFO 2025-08-17 19:41:03,235 basehttp 20948 5464 "POST /admin/logout/ HTTP/1.1" 200 3580
+INFO 2025-08-17 19:41:05,576 basehttp 20948 5464 "GET /admin/ HTTP/1.1" 302 0
+INFO 2025-08-17 19:41:05,624 basehttp 20948 5464 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4185
+INFO 2025-08-17 19:41:20,858 autoreload 19488 4588 C:\Users\kerem\Downloads\yangin_ihbar_backend-main\yisis_backend\settings.py changed, reloading.
+INFO 2025-08-17 19:41:21,247 autoreload 20948 27032 C:\Users\kerem\Downloads\yangin_ihbar_backend-main\yisis_backend\settings.py changed, reloading.
+INFO 2025-08-17 19:41:21,473 autoreload 18764 29580 Watching for file changes with StatReloader
+INFO 2025-08-17 19:41:21,816 autoreload 29460 29896 Watching for file changes with StatReloader
+INFO 2025-08-17 19:42:15,624 autoreload 18764 29580 C:\Users\kerem\Downloads\yangin_ihbar_backend-main\yisis_app\models.py changed, reloading.
+INFO 2025-08-17 19:42:16,026 autoreload 29460 29896 C:\Users\kerem\Downloads\yangin_ihbar_backend-main\yisis_app\models.py changed, reloading.
+INFO 2025-08-17 19:42:16,333 autoreload 26432 12260 Watching for file changes with StatReloader
+INFO 2025-08-17 19:42:16,631 autoreload 28204 7236 Watching for file changes with StatReloader
+INFO 2025-08-17 19:42:29,681 autoreload 26432 12260 C:\Users\kerem\Downloads\yangin_ihbar_backend-main\yisis_app\admin.py changed, reloading.
+INFO 2025-08-17 19:42:30,111 autoreload 28204 7236 C:\Users\kerem\Downloads\yangin_ihbar_backend-main\yisis_app\admin.py changed, reloading.
+INFO 2025-08-17 19:42:30,373 autoreload 27196 11308 Watching for file changes with StatReloader
+INFO 2025-08-17 19:42:30,701 autoreload 3152 30328 Watching for file changes with StatReloader
+INFO 2025-08-17 19:42:48,145 autoreload 27196 11308 C:\Users\kerem\Downloads\yangin_ihbar_backend-main\yisis_backend\settings.py changed, reloading.
+INFO 2025-08-17 19:42:48,470 autoreload 3152 30328 C:\Users\kerem\Downloads\yangin_ihbar_backend-main\yisis_backend\settings.py changed, reloading.
+INFO 2025-08-17 19:42:48,874 autoreload 8056 22636 Watching for file changes with StatReloader
+INFO 2025-08-17 19:42:49,093 autoreload 28160 26576 Watching for file changes with StatReloader
+INFO 2025-08-17 20:00:49,683 autoreload 8056 22636 C:\Users\kerem\Downloads\yangin_ihbar_backend-main\yisis_app\models.py changed, reloading.
+INFO 2025-08-17 20:00:50,311 autoreload 12584 5704 Watching for file changes with StatReloader
+INFO 2025-08-17 20:00:50,736 autoreload 28160 26576 C:\Users\kerem\Downloads\yangin_ihbar_backend-main\yisis_app\models.py changed, reloading.
+INFO 2025-08-17 20:00:51,401 autoreload 16564 27896 Watching for file changes with StatReloader
+INFO 2025-08-17 20:03:42,733 autoreload 16564 27896 C:\Users\kerem\Downloads\yangin_ihbar_backend-main\yisis_app\views.py changed, reloading.
+INFO 2025-08-17 20:03:43,580 autoreload 31324 27804 Watching for file changes with StatReloader
+INFO 2025-08-17 20:03:43,805 autoreload 12584 5704 C:\Users\kerem\Downloads\yangin_ihbar_backend-main\yisis_app\views.py changed, reloading.
+INFO 2025-08-17 20:03:44,429 autoreload 22592 21008 Watching for file changes with StatReloader
+INFO 2025-08-17 20:03:47,026 autoreload 22592 21008 C:\Users\kerem\Downloads\yangin_ihbar_backend-main\yisis_app\views.py changed, reloading.
+INFO 2025-08-17 20:03:47,277 autoreload 31324 27804 C:\Users\kerem\Downloads\yangin_ihbar_backend-main\yisis_app\views.py changed, reloading.
+INFO 2025-08-17 20:03:47,694 autoreload 29280 3156 Watching for file changes with StatReloader
+INFO 2025-08-17 20:03:47,885 autoreload 28472 16844 Watching for file changes with StatReloader
+INFO 2025-08-17 20:03:52,200 autoreload 29280 3156 C:\Users\kerem\Downloads\yangin_ihbar_backend-main\yisis_app\views.py changed, reloading.
+INFO 2025-08-17 20:03:52,401 autoreload 28472 16844 C:\Users\kerem\Downloads\yangin_ihbar_backend-main\yisis_app\views.py changed, reloading.
+INFO 2025-08-17 20:03:52,911 autoreload 24936 25220 Watching for file changes with StatReloader
+INFO 2025-08-17 20:03:53,035 autoreload 14540 18488 Watching for file changes with StatReloader
+INFO 2025-08-17 20:04:04,947 autoreload 24936 25220 C:\Users\kerem\Downloads\yangin_ihbar_backend-main\yisis_app\views.py changed, reloading.
+INFO 2025-08-17 20:04:05,080 autoreload 14540 18488 C:\Users\kerem\Downloads\yangin_ihbar_backend-main\yisis_app\views.py changed, reloading.
+INFO 2025-08-17 20:04:05,659 autoreload 13952 26648 Watching for file changes with StatReloader
+INFO 2025-08-17 20:04:05,734 autoreload 25092 22780 Watching for file changes with StatReloader
+INFO 2025-08-17 20:04:08,092 autoreload 13952 26648 C:\Users\kerem\Downloads\yangin_ihbar_backend-main\yisis_app\views.py changed, reloading.
+INFO 2025-08-17 20:04:08,202 autoreload 25092 22780 C:\Users\kerem\Downloads\yangin_ihbar_backend-main\yisis_app\views.py changed, reloading.
+INFO 2025-08-17 20:04:08,842 autoreload 30496 22080 Watching for file changes with StatReloader
+INFO 2025-08-17 20:04:08,915 autoreload 11948 27276 Watching for file changes with StatReloader
+INFO 2025-08-17 20:04:15,585 autoreload 11948 27276 C:\Users\kerem\Downloads\yangin_ihbar_backend-main\yisis_app\views.py changed, reloading.
+INFO 2025-08-17 20:04:15,589 autoreload 30496 22080 C:\Users\kerem\Downloads\yangin_ihbar_backend-main\yisis_app\views.py changed, reloading.
+INFO 2025-08-17 20:04:16,331 autoreload 31724 4448 Watching for file changes with StatReloader
+INFO 2025-08-17 20:04:16,331 autoreload 7200 26236 Watching for file changes with StatReloader
+INFO 2025-08-17 20:04:29,487 autoreload 31724 4448 C:\Users\kerem\Downloads\yangin_ihbar_backend-main\yisis_app\views.py changed, reloading.
+INFO 2025-08-17 20:04:29,487 autoreload 7200 26236 C:\Users\kerem\Downloads\yangin_ihbar_backend-main\yisis_app\views.py changed, reloading.
+INFO 2025-08-17 20:04:30,109 autoreload 18012 30788 Watching for file changes with StatReloader
+INFO 2025-08-17 20:04:30,110 autoreload 29888 18008 Watching for file changes with StatReloader
+INFO 2025-08-17 20:04:34,693 autoreload 18012 30788 C:\Users\kerem\Downloads\yangin_ihbar_backend-main\yisis_app\views.py changed, reloading.
+INFO 2025-08-17 20:04:34,693 autoreload 29888 18008 C:\Users\kerem\Downloads\yangin_ihbar_backend-main\yisis_app\views.py changed, reloading.
+INFO 2025-08-17 20:04:35,382 autoreload 26964 15084 Watching for file changes with StatReloader
+INFO 2025-08-17 20:04:35,390 autoreload 27424 29036 Watching for file changes with StatReloader
+INFO 2025-08-17 20:04:48,507 autoreload 26964 15084 C:\Users\kerem\Downloads\yangin_ihbar_backend-main\yisis_app\views.py changed, reloading.
+INFO 2025-08-17 20:04:48,517 autoreload 27424 29036 C:\Users\kerem\Downloads\yangin_ihbar_backend-main\yisis_app\views.py changed, reloading.
+INFO 2025-08-17 20:04:49,247 autoreload 23544 13876 Watching for file changes with StatReloader
+INFO 2025-08-17 20:04:49,247 autoreload 18632 20452 Watching for file changes with StatReloader
+INFO 2025-08-17 20:04:52,740 autoreload 23544 13876 C:\Users\kerem\Downloads\yangin_ihbar_backend-main\yisis_app\views.py changed, reloading.
+INFO 2025-08-17 20:04:52,745 autoreload 18632 20452 C:\Users\kerem\Downloads\yangin_ihbar_backend-main\yisis_app\views.py changed, reloading.
+INFO 2025-08-17 20:04:53,414 autoreload 15216 10564 Watching for file changes with StatReloader
+INFO 2025-08-17 20:04:53,415 autoreload 13856 30244 Watching for file changes with StatReloader
+INFO 2025-08-17 20:05:07,799 autoreload 13856 30244 C:\Users\kerem\Downloads\yangin_ihbar_backend-main\yisis_app\views.py changed, reloading.
+INFO 2025-08-17 20:05:07,820 autoreload 15216 10564 C:\Users\kerem\Downloads\yangin_ihbar_backend-main\yisis_app\views.py changed, reloading.
+INFO 2025-08-17 20:05:08,380 autoreload 19544 22292 Watching for file changes with StatReloader
+INFO 2025-08-17 20:05:08,401 autoreload 23352 460 Watching for file changes with StatReloader
+INFO 2025-08-17 20:05:45,134 basehttp 19544 27072 code 400, message Bad request version ('\x18·´Qæ[æB\x01¦Ñp')
+ERROR 2025-08-17 20:05:45,134 basehttp 19544 27072 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2025-08-17 20:05:45,144 basehttp 19544 23644 code 400, message Bad request version ('\x82<iÃ\x9cR0`O.AÍl')
+ERROR 2025-08-17 20:05:45,145 basehttp 19544 23644 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2025-08-17 20:05:58,620 basehttp 19544 21408 "GET /admin/ HTTP/1.1" 302 0
+INFO 2025-08-17 20:05:58,701 basehttp 19544 21408 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4185
+ERROR 2025-08-17 20:06:07,974 log 19544 21408 Internal Server Error: /admin/login/
+Traceback (most recent call last):
+  File "C:\Users\kerem\AppData\Local\Programs\Python\Python39\lib\site-packages\django\contrib\auth\hashers.py", line 209, in _load_library
+    module = importlib.import_module(mod_path)
+  File "C:\Users\kerem\AppData\Local\Programs\Python\Python39\lib\importlib\__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 984, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'argon2'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\kerem\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\kerem\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\kerem\AppData\Local\Programs\Python\Python39\lib\contextlib.py", line 79, in inner
+    return func(*args, **kwds)
+  File "C:\Users\kerem\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\kerem\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\kerem\AppData\Local\Programs\Python\Python39\lib\site-packages\django\contrib\admin\sites.py", line 441, in login
+    return LoginView.as_view(**defaults)(request)
+  File "C:\Users\kerem\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\kerem\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\kerem\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\decorators\debug.py", line 92, in sensitive_post_parameters_wrapper
+    return view(request, *args, **kwargs)
+  File "C:\Users\kerem\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\kerem\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\kerem\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\kerem\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\kerem\AppData\Local\Programs\Python\Python39\lib\site-packages\django\contrib\auth\views.py", line 90, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "C:\Users\kerem\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\generic\base.py", line 144, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\kerem\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\generic\edit.py", line 152, in post
+    if form.is_valid():
+  File "C:\Users\kerem\AppData\Local\Programs\Python\Python39\lib\site-packages\django\forms\forms.py", line 201, in is_valid
+    return self.is_bound and not self.errors
+  File "C:\Users\kerem\AppData\Local\Programs\Python\Python39\lib\site-packages\django\forms\forms.py", line 196, in errors
+    self.full_clean()
+  File "C:\Users\kerem\AppData\Local\Programs\Python\Python39\lib\site-packages\django\forms\forms.py", line 434, in full_clean
+    self._clean_form()
+  File "C:\Users\kerem\AppData\Local\Programs\Python\Python39\lib\site-packages\django\forms\forms.py", line 455, in _clean_form
+    cleaned_data = self.clean()
+  File "C:\Users\kerem\AppData\Local\Programs\Python\Python39\lib\site-packages\django\contrib\auth\forms.py", line 252, in clean
+    self.user_cache = authenticate(
+  File "C:\Users\kerem\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\decorators\debug.py", line 42, in sensitive_variables_wrapper
+    return func(*func_args, **func_kwargs)
+  File "C:\Users\kerem\AppData\Local\Programs\Python\Python39\lib\site-packages\django\contrib\auth\__init__.py", line 77, in authenticate
+    user = backend.authenticate(request, **credentials)
+  File "C:\Users\kerem\AppData\Local\Programs\Python\Python39\lib\site-packages\django\contrib\auth\backends.py", line 52, in authenticate
+    if user.check_password(password) and self.user_can_authenticate(user):
+  File "C:\Users\kerem\AppData\Local\Programs\Python\Python39\lib\site-packages\django\contrib\auth\base_user.py", line 123, in check_password
+    return check_password(raw_password, self.password, setter)
+  File "C:\Users\kerem\AppData\Local\Programs\Python\Python39\lib\site-packages\django\contrib\auth\hashers.py", line 74, in check_password
+    setter(password)
+  File "C:\Users\kerem\AppData\Local\Programs\Python\Python39\lib\site-packages\django\contrib\auth\base_user.py", line 118, in setter
+    self.set_password(raw_password)
+  File "C:\Users\kerem\AppData\Local\Programs\Python\Python39\lib\site-packages\django\contrib\auth\base_user.py", line 108, in set_password
+    self.password = make_password(raw_password)
+  File "C:\Users\kerem\AppData\Local\Programs\Python\Python39\lib\site-packages\django\contrib\auth\hashers.py", line 97, in make_password
+    return hasher.encode(password, salt)
+  File "C:\Users\kerem\AppData\Local\Programs\Python\Python39\lib\site-packages\django\contrib\auth\hashers.py", line 380, in encode
+    argon2 = self._load_library()
+  File "C:\Users\kerem\AppData\Local\Programs\Python\Python39\lib\site-packages\django\contrib\auth\hashers.py", line 211, in _load_library
+    raise ValueError(
+ValueError: Couldn't load 'Argon2PasswordHasher' algorithm library: No module named 'argon2'
+ERROR 2025-08-17 20:06:07,986 basehttp 19544 21408 "POST /admin/login/?next=/admin/ HTTP/1.1" 500 214610
+INFO 2025-08-17 20:06:45,654 autoreload 19544 22292 C:\Users\kerem\Downloads\yangin_ihbar_backend-main\yisis_backend\settings.py changed, reloading.
+INFO 2025-08-17 20:06:46,558 autoreload 23352 460 C:\Users\kerem\Downloads\yangin_ihbar_backend-main\yisis_backend\settings.py changed, reloading.
+INFO 2025-08-17 20:06:46,603 autoreload 7992 25004 Watching for file changes with StatReloader
+INFO 2025-08-17 20:06:47,413 autoreload 17684 20980 Watching for file changes with StatReloader
+INFO 2025-08-17 20:07:19,146 autoreload 18632 13876 Watching for file changes with StatReloader
+INFO 2025-08-17 20:07:22,428 basehttp 7992 27752 code 400, message Bad request version ('\x02h2\x08http/1.1\x00')
+ERROR 2025-08-17 20:07:22,429 basehttp 7992 27752 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2025-08-17 20:07:22,432 basehttp 7992 29460 code 400, message Bad request syntax ('\x16\x03\x01\x07\x00\x01\x00\x06ü\x03\x03v«X%êØ\x89ìåõ')
+ERROR 2025-08-17 20:07:22,433 basehttp 7992 29460 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2025-08-17 20:07:29,953 basehttp 7992 3256 "GET /admin/ HTTP/1.1" 302 0
+INFO 2025-08-17 20:07:30,050 basehttp 7992 3256 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4185
+INFO 2025-08-17 20:07:34,910 basehttp 7992 3256 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2025-08-17 20:07:34,962 basehttp 7992 3256 "GET /admin/ HTTP/1.1" 200 12135
+INFO 2025-08-17 20:07:44,580 basehttp 7992 3256 "GET /admin/yisis_app/fakereport/add/ HTTP/1.1" 200 14471
+INFO 2025-08-17 20:07:44,710 basehttp 7992 10284 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-08-17 20:07:47,310 basehttp 7992 3256 "GET /static/admin/css/forms.css HTTP/1.1" 200 9090
+INFO 2025-08-17 20:07:47,341 basehttp 7992 10284 "GET /static/admin/js/core.js HTTP/1.1" 200 5682
+INFO 2025-08-17 20:07:47,366 basehttp 7992 3256 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 8943
+INFO 2025-08-17 20:07:47,373 basehttp 7992 10284 "GET /static/admin/css/widgets.css HTTP/1.1" 200 11921
+INFO 2025-08-17 20:07:47,409 basehttp 7992 10284 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2025-08-17 20:07:47,410 basehttp 7992 3256 "GET /static/admin/js/actions.js HTTP/1.1" 200 7872
+INFO 2025-08-17 20:07:47,442 basehttp 7992 10284 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2025-08-17 20:07:47,443 basehttp 7992 25724 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2025-08-17 20:07:47,474 basehttp 7992 10284 "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+INFO 2025-08-17 20:07:47,491 basehttp 7992 25724 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+INFO 2025-08-17 20:07:47,513 basehttp 7992 17700 "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19319
+INFO 2025-08-17 20:07:47,530 basehttp 7992 19640 "GET /static/admin/js/calendar.js HTTP/1.1" 200 8466
+INFO 2025-08-17 20:07:47,551 basehttp 7992 3256 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+INFO 2025-08-17 20:07:47,598 basehttp 7992 3256 "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2025-08-17 20:07:47,606 basehttp 7992 29248 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 292458
+INFO 2025-08-17 20:07:47,720 basehttp 7992 3256 "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+INFO 2025-08-17 20:07:47,728 basehttp 7992 29248 "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+INFO 2025-08-17 20:08:11,565 basehttp 7992 29248 "GET /admin/yisis_app/firereport/add/?_to_field=id&_popup=1 HTTP/1.1" 200 10359
+INFO 2025-08-17 20:08:11,617 basehttp 7992 29248 "GET /admin/jsi18n/ HTTP/1.1" 304 0
+INFO 2025-08-17 20:08:22,430 basehttp 7992 29248 "GET /admin/yisis_app/ HTTP/1.1" 200 8271
+INFO 2025-08-17 20:08:24,923 basehttp 7992 29248 "GET /admin/ HTTP/1.1" 200 12135
+INFO 2025-08-17 20:08:27,704 basehttp 7992 29248 "GET /admin/auth/user/ HTTP/1.1" 200 13622
+INFO 2025-08-17 20:08:27,766 basehttp 7992 3256 "GET /admin/jsi18n/ HTTP/1.1" 304 0
+INFO 2025-08-17 20:08:27,784 basehttp 7992 17700 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+INFO 2025-08-17 20:08:27,785 basehttp 7992 19640 "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+INFO 2025-08-17 20:08:27,791 basehttp 7992 29248 "GET /static/admin/css/changelists.css HTTP/1.1" 200 6566
+INFO 2025-08-17 20:08:27,857 basehttp 7992 17700 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 2025-08-17 20:08:27,858 basehttp 7992 29248 "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+INFO 2025-08-17 20:08:27,887 basehttp 7992 19640 "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+INFO 2025-08-17 20:08:37,298 basehttp 7992 19640 "GET /admin/auth/group/ HTTP/1.1" 200 10002
+INFO 2025-08-17 20:08:37,340 basehttp 7992 19640 "GET /admin/jsi18n/ HTTP/1.1" 304 0
+INFO 2025-08-17 20:08:39,508 basehttp 7992 19640 "GET /admin/auth/user/ HTTP/1.1" 200 13622
+INFO 2025-08-17 20:08:39,543 basehttp 7992 19640 "GET /admin/jsi18n/ HTTP/1.1" 304 0
+INFO 2025-08-17 20:08:45,492 basehttp 7992 19640 "GET /admin/yisis_app/securitylog/ HTTP/1.1" 200 12164
+INFO 2025-08-17 20:08:45,543 basehttp 7992 19640 "GET /admin/jsi18n/ HTTP/1.1" 304 0
+INFO 2025-08-17 20:08:47,720 basehttp 7992 19640 "GET /admin/yisis_app/notification/ HTTP/1.1" 200 9732
+INFO 2025-08-17 20:08:47,768 basehttp 7992 19640 "GET /admin/jsi18n/ HTTP/1.1" 304 0
+INFO 2025-08-17 20:08:49,557 basehttp 7992 19640 "GET /admin/yisis_app/nasafiredata/ HTTP/1.1" 200 9742
+INFO 2025-08-17 20:08:49,597 basehttp 7992 19640 "GET /admin/jsi18n/ HTTP/1.1" 304 0
+INFO 2025-08-17 20:08:50,682 basehttp 7992 19640 "GET /admin/yisis_app/infocontent/ HTTP/1.1" 200 9730
+INFO 2025-08-17 20:08:50,728 basehttp 7992 19640 "GET /admin/jsi18n/ HTTP/1.1" 304 0
+INFO 2025-08-17 20:08:51,733 basehttp 7992 19640 "GET /admin/yisis_app/firestation/ HTTP/1.1" 200 16027
+INFO 2025-08-17 20:08:51,786 basehttp 7992 19640 "GET /admin/jsi18n/ HTTP/1.1" 304 0
+INFO 2025-08-17 20:08:53,788 basehttp 7992 19640 "GET /admin/yisis_app/firereport/ HTTP/1.1" 200 12743
+INFO 2025-08-17 20:08:53,848 basehttp 7992 19640 "GET /admin/jsi18n/ HTTP/1.1" 304 0
+INFO 2025-08-17 20:08:55,113 basehttp 7992 19640 "GET /admin/yisis_app/firestation/ HTTP/1.1" 200 16027
+INFO 2025-08-17 20:08:55,152 basehttp 7992 19640 "GET /admin/jsi18n/ HTTP/1.1" 304 0
+INFO 2025-08-17 20:09:01,408 basehttp 7992 19640 "GET /admin/yisis_app/firestation/2/change/ HTTP/1.1" 200 13727
+INFO 2025-08-17 20:09:01,445 basehttp 7992 19640 "GET /admin/jsi18n/ HTTP/1.1" 304 0
+INFO 2025-08-17 20:09:45,587 basehttp 7992 19640 "POST /admin/yisis_app/firestation/2/change/ HTTP/1.1" 302 0
+INFO 2025-08-17 20:09:45,636 basehttp 7992 19640 "GET /admin/yisis_app/firestation/ HTTP/1.1" 200 16333
+INFO 2025-08-17 20:09:45,692 basehttp 7992 19640 "GET /admin/jsi18n/ HTTP/1.1" 304 0
+INFO 2025-08-17 20:10:00,491 basehttp 7992 19640 "GET /admin/yisis_app/firereport/ HTTP/1.1" 200 12743
+INFO 2025-08-17 20:10:00,538 basehttp 7992 19640 "GET /admin/jsi18n/ HTTP/1.1" 304 0
+INFO 2025-08-17 20:10:02,580 basehttp 7992 19640 "GET /admin/yisis_app/firereport/9/change/ HTTP/1.1" 200 17170
+INFO 2025-08-17 20:10:02,636 basehttp 7992 19640 "GET /admin/jsi18n/ HTTP/1.1" 304 0
+INFO 2025-08-17 20:10:17,961 basehttp 7992 19640 "GET /admin/yisis_app/firereport/9/change/ HTTP/1.1" 200 17170
+INFO 2025-08-17 20:10:22,340 basehttp 7992 19640 "GET /admin/yisis_app/firereport/ HTTP/1.1" 200 12743
+INFO 2025-08-17 20:10:22,395 basehttp 7992 19640 "GET /admin/jsi18n/ HTTP/1.1" 304 0
+INFO 2025-08-17 20:10:25,487 basehttp 7992 19640 "GET /admin/yisis_app/fakereport/ HTTP/1.1" 200 9723
+INFO 2025-08-17 20:10:25,541 basehttp 7992 19640 "GET /admin/jsi18n/ HTTP/1.1" 304 0
+INFO 2025-08-17 20:10:27,584 basehttp 7992 19640 "GET /admin/yisis_app/user/ HTTP/1.1" 200 13232
+INFO 2025-08-17 20:10:27,638 basehttp 7992 19640 "GET /admin/jsi18n/ HTTP/1.1" 304 0
+INFO 2025-08-17 20:10:38,806 basehttp 7992 19640 "GET /admin/yisis_app/user/11/change/ HTTP/1.1" 200 18409
+INFO 2025-08-17 20:10:38,867 basehttp 7992 19640 "GET /admin/jsi18n/ HTTP/1.1" 304 0
+INFO 2025-08-17 20:11:06,148 basehttp 7992 19640 "GET /admin/yisis_app/securitylog/ HTTP/1.1" 200 12164
+INFO 2025-08-17 20:11:06,199 basehttp 7992 19640 "GET /admin/jsi18n/ HTTP/1.1" 304 0
+INFO 2025-08-17 20:11:07,968 basehttp 7992 19640 "GET /admin/yisis_app/notification/ HTTP/1.1" 200 9732
+INFO 2025-08-17 20:11:08,015 basehttp 7992 19640 "GET /admin/jsi18n/ HTTP/1.1" 304 0
+INFO 2025-08-17 20:11:10,791 basehttp 7992 19640 "GET /admin/ HTTP/1.1" 200 12533
+INFO 2025-08-17 20:11:28,043 autoreload 7992 25004 C:\Users\kerem\Downloads\yangin_ihbar_backend-main\yisis_backend\settings.py changed, reloading.
+INFO 2025-08-17 20:11:28,490 autoreload 17684 20980 C:\Users\kerem\Downloads\yangin_ihbar_backend-main\yisis_backend\settings.py changed, reloading.
+INFO 2025-08-17 20:11:28,800 autoreload 15880 10540 Watching for file changes with StatReloader
+INFO 2025-08-17 20:11:29,150 autoreload 31696 11528 Watching for file changes with StatReloader
+INFO 2025-08-18 09:34:10,135 autoreload 19544 12256 Watching for file changes with StatReloader
+WARNING 2025-08-18 09:35:35,920 log 19544 4788 Unauthorized: /api/login/
+WARNING 2025-08-18 09:35:35,921 basehttp 19544 4788 "POST /api/login/ HTTP/1.1" 401 58
+WARNING 2025-08-18 09:35:35,928 log 19544 4788 Unauthorized: /api/login/
+WARNING 2025-08-18 09:35:35,931 basehttp 19544 4788 "POST /api/login/ HTTP/1.1" 401 58
+WARNING 2025-08-18 09:35:35,937 log 19544 4788 Unauthorized: /api/login/
+WARNING 2025-08-18 09:35:35,937 basehttp 19544 4788 "POST /api/login/ HTTP/1.1" 401 58
+WARNING 2025-08-18 09:35:35,943 log 19544 4788 Unauthorized: /api/login/
+WARNING 2025-08-18 09:35:35,947 basehttp 19544 4788 "POST /api/login/ HTTP/1.1" 401 58
+WARNING 2025-08-18 09:35:35,954 log 19544 4788 Unauthorized: /api/login/
+WARNING 2025-08-18 09:35:35,954 basehttp 19544 4788 "POST /api/login/ HTTP/1.1" 401 58
+WARNING 2025-08-18 09:35:35,968 log 19544 4788 Unauthorized: /api/login/
+WARNING 2025-08-18 09:35:35,969 basehttp 19544 4788 "POST /api/login/ HTTP/1.1" 401 58
+WARNING 2025-08-18 09:35:35,977 log 19544 4788 Unauthorized: /api/login/
+WARNING 2025-08-18 09:35:35,977 basehttp 19544 4788 "POST /api/login/ HTTP/1.1" 401 58
+WARNING 2025-08-18 09:35:35,983 log 19544 4788 Unauthorized: /api/login/
+WARNING 2025-08-18 09:35:35,983 basehttp 19544 4788 "POST /api/login/ HTTP/1.1" 401 58
+WARNING 2025-08-18 09:35:35,989 log 19544 4788 Unauthorized: /api/register/
+WARNING 2025-08-18 09:35:35,989 basehttp 19544 4788 "POST /api/register/ HTTP/1.1" 401 58
+WARNING 2025-08-18 09:35:36,001 log 19544 4788 Unauthorized: /api/register/
+WARNING 2025-08-18 09:35:36,002 basehttp 19544 4788 "POST /api/register/ HTTP/1.1" 401 58
+WARNING 2025-08-18 09:35:36,009 log 19544 4788 Unauthorized: /api/register/
+WARNING 2025-08-18 09:35:36,009 basehttp 19544 4788 "POST /api/register/ HTTP/1.1" 401 58
+WARNING 2025-08-18 09:35:36,017 log 19544 4788 Unauthorized: /api/register/
+WARNING 2025-08-18 09:35:36,018 basehttp 19544 4788 "POST /api/register/ HTTP/1.1" 401 58
+WARNING 2025-08-18 09:35:36,024 log 19544 4788 Unauthorized: /api/register/
+WARNING 2025-08-18 09:35:36,024 basehttp 19544 4788 "POST /api/register/ HTTP/1.1" 401 58
+WARNING 2025-08-18 09:35:36,031 log 19544 4788 Unauthorized: /api/register/
+WARNING 2025-08-18 09:35:36,031 basehttp 19544 4788 "POST /api/register/ HTTP/1.1" 401 58
+WARNING 2025-08-18 09:35:36,037 log 19544 4788 Unauthorized: /api/register/
+WARNING 2025-08-18 09:35:36,039 basehttp 19544 4788 "POST /api/register/ HTTP/1.1" 401 58
+WARNING 2025-08-18 09:35:36,046 log 19544 4788 Unauthorized: /api/register/
+WARNING 2025-08-18 09:35:36,047 basehttp 19544 4788 "POST /api/register/ HTTP/1.1" 401 58
+WARNING 2025-08-18 09:35:36,055 log 19544 4788 Unauthorized: /api/user-info/
+WARNING 2025-08-18 09:35:36,055 basehttp 19544 4788 "GET /api/user-info/ HTTP/1.1" 401 107
+WARNING 2025-08-18 09:35:36,059 log 19544 4788 Unauthorized: /api/user-info/
+WARNING 2025-08-18 09:35:36,064 basehttp 19544 4788 "GET /api/user-info/ HTTP/1.1" 401 107
+WARNING 2025-08-18 09:35:36,069 log 19544 4788 Unauthorized: /api/user-info/
+WARNING 2025-08-18 09:35:36,069 basehttp 19544 4788 "GET /api/user-info/ HTTP/1.1" 401 107
+WARNING 2025-08-18 09:35:36,078 log 19544 4788 Unauthorized: /api/user-info/
+WARNING 2025-08-18 09:35:36,078 basehttp 19544 4788 "GET /api/user-info/ HTTP/1.1" 401 107
+WARNING 2025-08-18 09:35:36,083 log 19544 4788 Unauthorized: /api/user-info/
+WARNING 2025-08-18 09:35:36,087 basehttp 19544 4788 "GET /api/user-info/ HTTP/1.1" 401 107
+WARNING 2025-08-18 09:35:36,327 log 19544 4788 Unauthorized: /api/user-info/
+WARNING 2025-08-18 09:35:36,327 basehttp 19544 4788 "GET /api/user-info/ HTTP/1.1" 401 172
+WARNING 2025-08-18 09:35:36,335 log 19544 4788 Unauthorized: /api/user-info/
+WARNING 2025-08-18 09:35:36,336 basehttp 19544 4788 "GET /api/user-info/ HTTP/1.1" 401 107
+WARNING 2025-08-18 09:35:36,343 log 19544 4788 Unauthorized: /api/user-info/
+WARNING 2025-08-18 09:35:36,344 basehttp 19544 4788 "GET /api/user-info/ HTTP/1.1" 401 107
+WARNING 2025-08-18 09:35:36,351 log 19544 4788 Unauthorized: /api/register/
+WARNING 2025-08-18 09:35:36,351 basehttp 19544 4788 "POST /api/register/ HTTP/1.1" 401 58
+WARNING 2025-08-18 09:35:36,359 log 19544 4788 Unauthorized: /api/user-info/
+WARNING 2025-08-18 09:35:36,359 basehttp 19544 4788 "GET /api/user-info/ HTTP/1.1" 401 58
+WARNING 2025-08-18 09:35:36,367 log 19544 4788 Unauthorized: /api/user-info/
+WARNING 2025-08-18 09:35:36,368 basehttp 19544 4788 "GET /api/user-info/ HTTP/1.1" 401 107
+WARNING 2025-08-18 09:35:36,373 log 19544 4788 Unauthorized: /api/user-info/
+WARNING 2025-08-18 09:35:36,373 basehttp 19544 4788 "GET /api/user-info/ HTTP/1.1" 401 172
+WARNING 2025-08-18 09:35:36,381 log 19544 4788 Unauthorized: /api/user-info/
+WARNING 2025-08-18 09:35:36,385 basehttp 19544 4788 "GET /api/user-info/ HTTP/1.1" 401 172
+WARNING 2025-08-18 09:35:36,388 log 19544 4788 Unauthorized: /api/user-info/
+WARNING 2025-08-18 09:35:36,388 basehttp 19544 4788 "GET /api/user-info/ HTTP/1.1" 401 172
+WARNING 2025-08-18 09:35:36,397 log 19544 4788 Unauthorized: /api/user-info/
+WARNING 2025-08-18 09:35:36,397 basehttp 19544 4788 "GET /api/user-info/ HTTP/1.1" 401 172
+WARNING 2025-08-18 09:35:36,405 log 19544 4788 Unauthorized: /api/user-info/
+WARNING 2025-08-18 09:35:36,407 basehttp 19544 4788 "GET /api/user-info/ HTTP/1.1" 401 58
+WARNING 2025-08-18 09:35:36,414 log 19544 4788 Unauthorized: /api/user-info/
+WARNING 2025-08-18 09:35:36,414 basehttp 19544 4788 "GET /api/user-info/ HTTP/1.1" 401 172
+WARNING 2025-08-18 09:35:36,419 log 19544 4788 Unauthorized: /api/user-info/
+WARNING 2025-08-18 09:35:36,419 basehttp 19544 4788 "GET /api/user-info/ HTTP/1.1" 401 172
+WARNING 2025-08-18 09:35:36,427 log 19544 4788 Unauthorized: /api/user-info/
+WARNING 2025-08-18 09:35:36,427 basehttp 19544 4788 "GET /api/user-info/ HTTP/1.1" 401 172
+WARNING 2025-08-18 09:35:36,445 log 19544 4788 Not Found: /api/create-fire-report/
+WARNING 2025-08-18 09:35:36,446 basehttp 19544 4788 "GET /api/create-fire-report/ HTTP/1.1" 404 4314
+WARNING 2025-08-18 09:35:36,453 log 19544 4788 Not Found: /api/create-fire-report/
+WARNING 2025-08-18 09:35:36,454 basehttp 19544 4788 "GET /api/create-fire-report/ HTTP/1.1" 404 4314
+WARNING 2025-08-18 09:35:36,462 log 19544 4788 Not Found: /api/create-fire-report/
+WARNING 2025-08-18 09:35:36,462 basehttp 19544 4788 "GET /api/create-fire-report/ HTTP/1.1" 404 4314
+WARNING 2025-08-18 09:35:36,469 log 19544 4788 Not Found: /api/create-fire-report/
+WARNING 2025-08-18 09:35:36,469 basehttp 19544 4788 "GET /api/create-fire-report/ HTTP/1.1" 404 4314
+WARNING 2025-08-18 09:35:36,477 log 19544 4788 Not Found: /api/create-fire-report/
+WARNING 2025-08-18 09:35:36,477 basehttp 19544 4788 "GET /api/create-fire-report/ HTTP/1.1" 404 4314
+WARNING 2025-08-18 09:35:36,491 log 19544 4788 Not Found: /api/create-fire-report/
+WARNING 2025-08-18 09:35:36,492 basehttp 19544 4788 "GET /api/create-fire-report/ HTTP/1.1" 404 4314
+WARNING 2025-08-18 09:35:36,506 log 19544 4788 Not Found: /api/create-fire-report/
+WARNING 2025-08-18 09:35:36,506 basehttp 19544 4788 "GET /api/create-fire-report/ HTTP/1.1" 404 4314
+WARNING 2025-08-18 09:35:36,515 log 19544 4788 Not Found: /api/create-fire-report/
+WARNING 2025-08-18 09:35:36,516 basehttp 19544 4788 "GET /api/create-fire-report/ HTTP/1.1" 404 4314
+WARNING 2025-08-18 09:35:36,528 log 19544 4788 Not Found: /api/create-fire-report/
+WARNING 2025-08-18 09:35:36,528 basehttp 19544 4788 "GET /api/create-fire-report/ HTTP/1.1" 404 4314
+WARNING 2025-08-18 09:35:36,544 log 19544 4788 Not Found: /api/create-fire-report/
+WARNING 2025-08-18 09:35:36,545 basehttp 19544 4788 "GET /api/create-fire-report/ HTTP/1.1" 404 4314
+WARNING 2025-08-18 09:35:36,554 log 19544 4788 Not Found: /api/user-fire-reports/
+WARNING 2025-08-18 09:35:36,555 basehttp 19544 4788 "GET /api/user-fire-reports/ HTTP/1.1" 404 4311
+WARNING 2025-08-18 09:35:36,564 log 19544 4788 Not Found: /api/user-fire-reports/
+WARNING 2025-08-18 09:35:36,564 basehttp 19544 4788 "GET /api/user-fire-reports/ HTTP/1.1" 404 4311
+WARNING 2025-08-18 09:35:36,572 log 19544 4788 Not Found: /api/user-fire-reports/
+WARNING 2025-08-18 09:35:36,572 basehttp 19544 4788 "GET /api/user-fire-reports/ HTTP/1.1" 404 4311
+WARNING 2025-08-18 09:35:36,579 log 19544 4788 Not Found: /api/user-fire-reports/
+WARNING 2025-08-18 09:35:36,580 basehttp 19544 4788 "GET /api/user-fire-reports/ HTTP/1.1" 404 4311
+WARNING 2025-08-18 09:35:36,587 log 19544 4788 Not Found: /api/user-fire-reports/
+WARNING 2025-08-18 09:35:36,587 basehttp 19544 4788 "GET /api/user-fire-reports/ HTTP/1.1" 404 4311
+WARNING 2025-08-18 09:35:36,596 log 19544 4788 Not Found: /api/user-fire-reports/
+WARNING 2025-08-18 09:35:36,597 basehttp 19544 4788 "GET /api/user-fire-reports/ HTTP/1.1" 404 4311
+WARNING 2025-08-18 09:35:36,604 log 19544 4788 Not Found: /api/user-fire-reports/
+WARNING 2025-08-18 09:35:36,605 basehttp 19544 4788 "GET /api/user-fire-reports/ HTTP/1.1" 404 4311
+WARNING 2025-08-18 09:35:36,612 log 19544 4788 Not Found: /api/user-fire-reports/
+WARNING 2025-08-18 09:35:36,612 basehttp 19544 4788 "GET /api/user-fire-reports/ HTTP/1.1" 404 4311
+WARNING 2025-08-18 09:35:36,620 log 19544 4788 Not Found: /api/user-fire-reports/
+WARNING 2025-08-18 09:35:36,620 basehttp 19544 4788 "GET /api/user-fire-reports/ HTTP/1.1" 404 4311
+WARNING 2025-08-18 09:35:36,627 log 19544 4788 Not Found: /api/user-fire-reports/
+WARNING 2025-08-18 09:35:36,627 basehttp 19544 4788 "GET /api/user-fire-reports/ HTTP/1.1" 404 4311
+WARNING 2025-08-18 09:35:36,635 log 19544 4788 Unauthorized: /api/register/
+WARNING 2025-08-18 09:35:36,637 basehttp 19544 4788 "POST /api/register/ HTTP/1.1" 401 58
+WARNING 2025-08-18 09:35:36,644 log 19544 4788 Unauthorized: /api/register/
+WARNING 2025-08-18 09:35:36,644 basehttp 19544 4788 "POST /api/register/ HTTP/1.1" 401 58
+WARNING 2025-08-18 09:35:36,649 log 19544 4788 Unauthorized: /api/register/
+WARNING 2025-08-18 09:35:36,649 basehttp 19544 4788 "POST /api/register/ HTTP/1.1" 401 58
+WARNING 2025-08-18 09:35:36,659 log 19544 4788 Unauthorized: /api/register/
+WARNING 2025-08-18 09:35:36,659 basehttp 19544 4788 "POST /api/register/ HTTP/1.1" 401 58
+WARNING 2025-08-18 09:35:36,666 log 19544 4788 Unauthorized: /api/register/
+WARNING 2025-08-18 09:35:36,667 basehttp 19544 4788 "POST /api/register/ HTTP/1.1" 401 58
+WARNING 2025-08-18 09:35:36,675 log 19544 4788 Unauthorized: /api/register/
+WARNING 2025-08-18 09:35:36,675 basehttp 19544 4788 "POST /api/register/ HTTP/1.1" 401 58
+WARNING 2025-08-18 09:35:36,682 log 19544 4788 Unauthorized: /api/register/
+WARNING 2025-08-18 09:35:36,684 basehttp 19544 4788 "POST /api/register/ HTTP/1.1" 401 58
+WARNING 2025-08-18 09:35:36,691 log 19544 4788 Unauthorized: /api/register/
+WARNING 2025-08-18 09:35:36,692 basehttp 19544 4788 "POST /api/register/ HTTP/1.1" 401 58
+WARNING 2025-08-18 09:35:36,699 log 19544 4788 Unauthorized: /api/login/
+WARNING 2025-08-18 09:35:36,699 basehttp 19544 4788 "POST /api/login/ HTTP/1.1" 401 58
+WARNING 2025-08-18 09:35:36,807 log 19544 4788 Unauthorized: /api/login/
+WARNING 2025-08-18 09:35:36,807 basehttp 19544 4788 "POST /api/login/ HTTP/1.1" 401 58
+WARNING 2025-08-18 09:35:36,930 log 19544 4788 Unauthorized: /api/login/
+WARNING 2025-08-18 09:35:36,930 basehttp 19544 4788 "POST /api/login/ HTTP/1.1" 401 58
+WARNING 2025-08-18 09:35:37,048 log 19544 4788 Unauthorized: /api/login/
+WARNING 2025-08-18 09:35:37,048 basehttp 19544 4788 "POST /api/login/ HTTP/1.1" 401 58
+WARNING 2025-08-18 09:35:37,167 log 19544 4788 Unauthorized: /api/login/
+WARNING 2025-08-18 09:35:37,173 basehttp 19544 4788 "POST /api/login/ HTTP/1.1" 401 58
+WARNING 2025-08-18 09:35:37,303 log 19544 4788 Unauthorized: /api/login/
+WARNING 2025-08-18 09:35:37,307 basehttp 19544 4788 "POST /api/login/ HTTP/1.1" 401 58
+WARNING 2025-08-18 09:35:37,427 log 19544 4788 Unauthorized: /api/login/
+WARNING 2025-08-18 09:35:37,427 basehttp 19544 4788 "POST /api/login/ HTTP/1.1" 401 58
+WARNING 2025-08-18 09:35:37,539 log 19544 4788 Unauthorized: /api/login/
+WARNING 2025-08-18 09:35:37,539 basehttp 19544 4788 "POST /api/login/ HTTP/1.1" 401 58
+WARNING 2025-08-18 09:35:37,667 log 19544 4788 Unauthorized: /api/login/
+WARNING 2025-08-18 09:35:37,667 basehttp 19544 4788 "POST /api/login/ HTTP/1.1" 401 58
+WARNING 2025-08-18 09:35:37,777 log 19544 4788 Unauthorized: /api/login/
+WARNING 2025-08-18 09:35:37,785 basehttp 19544 4788 "POST /api/login/ HTTP/1.1" 401 58
+WARNING 2025-08-18 09:35:37,913 log 19544 4788 Unauthorized: /api/register/
+WARNING 2025-08-18 09:35:37,915 basehttp 19544 4788 "POST /api/register/ HTTP/1.1" 401 58
+WARNING 2025-08-18 09:35:37,930 log 19544 4788 Unauthorized: /api/register/
+WARNING 2025-08-18 09:35:37,930 basehttp 19544 4788 "POST /api/register/ HTTP/1.1" 401 58
+WARNING 2025-08-18 09:35:37,942 log 19544 4788 Unauthorized: /api/register/
+WARNING 2025-08-18 09:35:37,945 basehttp 19544 4788 "POST /api/register/ HTTP/1.1" 401 58
+WARNING 2025-08-18 09:35:37,958 log 19544 4788 Unauthorized: /api/register/
+WARNING 2025-08-18 09:35:37,959 basehttp 19544 4788 "POST /api/register/ HTTP/1.1" 401 58
+WARNING 2025-08-18 09:35:37,968 log 19544 4788 Unauthorized: /api/register/
+WARNING 2025-08-18 09:35:37,969 basehttp 19544 4788 "POST /api/register/ HTTP/1.1" 401 58
+WARNING 2025-08-18 09:35:37,978 log 19544 4788 Not Found: /api/upload/
+WARNING 2025-08-18 09:35:37,979 basehttp 19544 4788 "POST /api/upload/ HTTP/1.1" 404 4279
+WARNING 2025-08-18 09:35:37,986 log 19544 4788 Not Found: /api/file-upload/
+WARNING 2025-08-18 09:35:37,987 basehttp 19544 4788 "POST /api/file-upload/ HTTP/1.1" 404 4294
+WARNING 2025-08-18 09:35:37,994 log 19544 4788 Not Found: /api/photo-upload/
+WARNING 2025-08-18 09:35:37,994 basehttp 19544 4788 "POST /api/photo-upload/ HTTP/1.1" 404 4297
+WARNING 2025-08-18 09:35:37,999 log 19544 4788 Forbidden (CSRF cookie not set.): /admin/upload/
+WARNING 2025-08-18 09:35:38,006 basehttp 19544 4788 "POST /admin/upload/ HTTP/1.1" 403 2870
+WARNING 2025-08-18 09:36:51,466 log 19544 17876 Unauthorized: /api/register/
+WARNING 2025-08-18 09:36:51,467 basehttp 19544 17876 "POST /api/register/ HTTP/1.1" 401 58
+WARNING 2025-08-18 09:36:51,476 log 19544 17876 Unauthorized: /api/login/
+WARNING 2025-08-18 09:36:51,476 basehttp 19544 17876 "POST /api/login/ HTTP/1.1" 401 58
+WARNING 2025-08-18 09:36:51,485 log 19544 17876 Unauthorized: /api/login/
+WARNING 2025-08-18 09:36:51,486 basehttp 19544 17876 "POST /api/login/ HTTP/1.1" 401 58
+WARNING 2025-08-18 09:36:51,495 log 19544 17876 Unauthorized: /api/login/
+WARNING 2025-08-18 09:36:51,495 basehttp 19544 17876 "POST /api/login/ HTTP/1.1" 401 58
+WARNING 2025-08-18 09:36:51,504 log 19544 17876 Unauthorized: /api/login/
+WARNING 2025-08-18 09:36:51,505 basehttp 19544 17876 "POST /api/login/ HTTP/1.1" 401 58
+WARNING 2025-08-18 09:36:51,514 log 19544 17876 Unauthorized: /api/login/
+WARNING 2025-08-18 09:36:51,515 basehttp 19544 17876 "POST /api/login/ HTTP/1.1" 401 58
+WARNING 2025-08-18 09:36:51,519 log 19544 17876 Unauthorized: /api/user-info/
+WARNING 2025-08-18 09:36:51,519 basehttp 19544 17876 "GET /api/user-info/ HTTP/1.1" 401 58
+WARNING 2025-08-18 09:36:51,529 log 19544 17876 Unauthorized: /api/user-info/
+WARNING 2025-08-18 09:36:51,529 basehttp 19544 17876 "GET /api/user-info/ HTTP/1.1" 401 58
+WARNING 2025-08-18 09:36:51,540 log 19544 17876 Unauthorized: /api/user-info/
+WARNING 2025-08-18 09:36:51,540 basehttp 19544 17876 "GET /api/user-info/ HTTP/1.1" 401 58
+WARNING 2025-08-18 09:36:51,548 log 19544 17876 Unauthorized: /api/user-info/
+WARNING 2025-08-18 09:36:51,549 basehttp 19544 17876 "GET /api/user-info/ HTTP/1.1" 401 58
+WARNING 2025-08-18 09:36:51,556 log 19544 17876 Unauthorized: /api/user-info/
+WARNING 2025-08-18 09:36:51,556 basehttp 19544 17876 "GET /api/user-info/ HTTP/1.1" 401 172
+WARNING 2025-08-18 09:36:51,569 log 19544 17876 Unauthorized: /api/register/
+WARNING 2025-08-18 09:36:51,573 basehttp 19544 17876 "POST /api/register/ HTTP/1.1" 401 58
+WARNING 2025-08-18 09:36:51,577 log 19544 12872 Unauthorized: /api/register/
+WARNING 2025-08-18 09:36:51,577 basehttp 19544 12872 "POST /api/register/ HTTP/1.1" 401 58
+WARNING 2025-08-18 09:36:51,584 log 19544 4836 Unauthorized: /api/register/
+WARNING 2025-08-18 09:36:51,585 basehttp 19544 4836 "POST /api/register/ HTTP/1.1" 401 58
+WARNING 2025-08-18 09:36:51,589 log 19544 27144 Unauthorized: /api/register/
+WARNING 2025-08-18 09:36:51,589 basehttp 19544 27144 "POST /api/register/ HTTP/1.1" 401 58
+WARNING 2025-08-18 09:36:51,610 log 19544 18808 Unauthorized: /api/register/
+WARNING 2025-08-18 09:36:51,610 basehttp 19544 18808 "POST /api/register/ HTTP/1.1" 401 58
+WARNING 2025-08-18 09:36:51,617 log 19544 18808 Unauthorized: /api/register/
+WARNING 2025-08-18 09:36:51,617 basehttp 19544 18808 "POST /api/register/ HTTP/1.1" 401 58
