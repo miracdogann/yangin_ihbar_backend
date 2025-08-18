@@ -18,11 +18,6 @@ def home(request):
     return HttpResponse("Yangi İhbar Api")
 
 
-class Fires(APIView):
-    def get(self, request):
-        data = {"message": "Yanginlar Api"}
-        return Response(data, status=status.HTTP_200_OK)
-    
 
 class Stations(APIView):
     def get(self,request):
@@ -65,6 +60,11 @@ class UserInfoView(APIView):
 
 
 
+from rest_framework.views import APIView
+from rest_framework.response import Response
+from rest_framework import status
+from .models import User, FireReport
+
 class CreateFireReportView(APIView):
     def post(self, request):
         auth_header = request.headers.get("Authorization")
@@ -80,6 +80,7 @@ class CreateFireReportView(APIView):
         photo_url = request.data.get("photo_url")
         latitude = request.data.get("latitude")
         longitude = request.data.get("longitude")
+        address = request.data.get("address")  # Yeni satır: opsiyonel adres
 
         if not all([photo_url, latitude, longitude]):
             return Response({"error": "Tüm alanlar gerekli"}, status=status.HTTP_400_BAD_REQUEST)
@@ -88,12 +89,32 @@ class CreateFireReportView(APIView):
             user=user,
             photo_url=photo_url,
             latitude=latitude,
-            longitude=longitude
+            longitude=longitude,
+            address=address if address else None  # Opsiyonel, boşsa None
         )
 
         return Response({"message": "İhbar başarıyla oluşturuldu", "report_id": report.id}, status=status.HTTP_201_CREATED)
 
-
+class UpdatePushTokenView(APIView):
+    def patch(self, request):
+        auth_header = request.headers.get("Authorization")
+        if not auth_header or not auth_header.startswith("Bearer "):
+            return Response({"error": "Authorization header missing or invalid"}, status=status.HTTP_401_UNAUTHORIZED)
+        
+        token = auth_header[len("Bearer "):]
+        try:
+            user = User.objects.get(auth_token=token)
+        except User.DoesNotExist:
+            return Response({"error": "Invalid token"}, status=status.HTTP_401_UNAUTHORIZED)
+        
+        expo_token = request.data.get("expo_push_token")
+        if not expo_token:
+            return Response({"error": "Expo token gerekli"}, status=status.HTTP_400_BAD_REQUEST)
+        
+        user.expo_push_token = expo_token
+        user.save()
+        
+        return Response({"message": "Expo token güncellendi"}, status=status.HTTP_200_OK)
 # 1) Tüm ihbarlar, token gerektirmez
 class ListAllFireReportsView(APIView):
     def get(self, request):
@@ -121,6 +142,7 @@ class ListAllFireReportsView(APIView):
                 "photo_url": report.photo_url,
                 "latitude": report.latitude,
                 "longitude": report.longitude,
+                "address":report.address,
                 "status": report.status
             }
             for report in reports
@@ -282,7 +304,3 @@ class ResetPasswordView(APIView):
         user.save()
 
         return Response({"message": "Şifre başarıyla güncellendi."}, status=status.HTTP_200_OK)
-
-
-
-

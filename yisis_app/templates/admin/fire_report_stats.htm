@@ -1,0 +1,20 @@
+{% extends "admin/base_site.html" %}
+{% block content %}
+<h1>📊 Yangın İhbar İstatistikleri</h1>
+
+<canvas id="chart" width="400" height="200"></canvas>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+  const ctx = document.getElementById('chart').getContext('2d');
+  const data = {
+    labels: [{% for row in stats %}"{{ row.status|title }}",{% endfor %}],
+    datasets: [{
+      label: 'İhbar Sayısı',
+      data: [{% for row in stats %}{{ row.sayi }},{% endfor %}],
+      backgroundColor: ['orange', 'blue', 'green'],
+    }]
+  };
+  new Chart(ctx, { type: 'bar', data: data });
+</script>
+{% endblock %}

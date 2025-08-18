@@ -20,6 +20,7 @@ class User(models.Model):
     reset_token_expire = models.DateTimeField(blank=True, null=True)
     # Yeni: Kullanıcı token alanı
     auth_token = models.CharField(max_length=255, blank=True, null=True, unique=True)
+    expo_push_token = models.CharField(max_length=255, blank=True, null=True)
 
     def set_password(self, raw_password):
         self.password = make_password(raw_password)
@@ -29,6 +30,9 @@ class User(models.Model):
 
     def __str__(self):
         return f"{self.user_name_surname} - {self.email}"
+    class Meta:
+        verbose_name = "Kullanıcılar"
+        verbose_name_plural = "Kullanıcılar"
 
 # Yangın İhbarı
 class FireReport(models.Model):
@@ -44,11 +48,14 @@ class FireReport(models.Model):
     longitude = models.FloatField()
     status = models.CharField(max_length=20, choices=STATUS_CHOICES, default='devam')
     timestamp = models.DateTimeField(default=timezone.now)
+    address = models.CharField("Adres", max_length=500, blank=True, null=True)  # Burayı ekledik
     is_confirmed = models.BooleanField(default=False)
 
     def __str__(self):
         return f"Yangın İhbarı - {self.user.user_name_surname} ({self.timestamp.strftime('%Y-%m-%d %H:%M')})"
-
+    class Meta:
+        verbose_name = "Yangın İhbarı"
+        verbose_name_plural = "Yangın İhbarları"
 
 # İtfaiye İstasyonları
 class FireStation(models.Model):
@@ -60,7 +67,9 @@ class FireStation(models.Model):
 
     def __str__(self):
         return self.name
-
+    class Meta:
+        verbose_name = "İstasyonlar"
+        verbose_name_plural = "İstasyonlar"
 
 # NASA Yangın Verisi (günlük güncellenebilir)
 class NasaFireData(models.Model):
@@ -72,7 +81,9 @@ class NasaFireData(models.Model):
 
     def __str__(self):
         return f"NASA Yangın ({self.timestamp.strftime('%Y-%m-%d %H:%M')})"
-
+    class Meta:
+        verbose_name = "Nasa Verileri"
+        verbose_name_plural = "Nasa Verileri"
 
 # Bilgilendirici İçerikler (yangın öncesi / anı / sonrası)
 class InfoContent(models.Model):
@@ -87,6 +98,9 @@ class InfoContent(models.Model):
 
     def __str__(self):
         return self.title
+    class Meta:
+        verbose_name = "Bilgilendirme"
+        verbose_name_plural = "Bilgilendirme"
 
 
 # Bildirim Geçmişi
@@ -98,7 +112,9 @@ class Notification(models.Model):
 
     def __str__(self):
         return f"Bildirim -> {self.user.user_name_surname}"
-
+    class Meta:
+        verbose_name = "Bildirim Geçmişi"
+        verbose_name_plural = "Bildirim Geçmişi"
 
 # Asılsız İhbar Raporları (yönetici işlem başlatabilir)
 class FakeReport(models.Model):
@@ -109,3 +125,6 @@ class FakeReport(models.Model):
 
     def __str__(self):
         return f"Asılsız İhbar - {self.report.user.user_name_surname}"
+    class Meta:
+        verbose_name = "Asılsız"
+        verbose_name_plural = "Asılsız İhbar"

@@ -2,7 +2,6 @@ from django.urls import path
 from .views import *
 urlpatterns = [
     path("",home,name="home"),
-    path("fires/",Fires.as_view(),name="yanginlar"),
     path("infos/",Infos.as_view(),name="infos"),
     path("stations/",Stations.as_view(),name="stations"),
     path("user-info/", UserInfoView.as_view(), name="user-info"),
@@ -13,5 +12,6 @@ urlpatterns = [
     path('login/', LoginView.as_view(), name='login'),
     path('forgot-password/', ForgotPasswordView.as_view(), name='forgot_password'),
     path('reset-password/', ResetPasswordView.as_view(), name='reset_password'),
+    path('update-push-token/',UpdatePushTokenView.as_view(), name='update_push_token'),
 
 ]
