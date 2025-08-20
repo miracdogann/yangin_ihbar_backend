@@ -26,7 +26,7 @@ class FireReportAdmin(admin.ModelAdmin):
     ordering = ("-timestamp",)
     fieldsets = (
         (None, {
-            'fields': ('user', 'photo_url', 'latitude', 'longitude', 'status', 'address', 'is_confirmed')
+            'fields': ('user', 'photo_url', 'latitude', 'longitude', 'status', 'address', 'is_confirmed',"description")
         }),
     )
     

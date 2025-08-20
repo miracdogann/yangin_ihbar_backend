@@ -3,15 +3,16 @@ from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework import status
 from django.utils import timezone
-from django.contrib.auth.hashers import make_password, check_password
 from datetime import timedelta
 import uuid
-from rest_framework.permissions import IsAuthenticated
-from rest_framework.authentication import TokenAuthentication, BaseAuthentication
-from rest_framework.exceptions import AuthenticationFailed
 from .models import * 
-from yisis_app.models import User  # uygulama adına göre değişir
-from rest_framework.permissions import IsAuthenticated
+import requests
+from google import genai
+
+
+
+
+
 
 
 def home(request):
@@ -60,10 +61,11 @@ class UserInfoView(APIView):
 
 
 
-from rest_framework.views import APIView
-from rest_framework.response import Response
-from rest_framework import status
-from .models import User, FireReport
+
+
+# Gemini API konfigürasyonu
+GEMINI_API_KEY = "AIzaSyDy1WEWDCXyVV2ee1N67SORE7QjDsbL6lc"
+client = genai.Client(api_key=GEMINI_API_KEY)
 
 class CreateFireReportView(APIView):
     def post(self, request):
@@ -80,21 +82,72 @@ class CreateFireReportView(APIView):
         photo_url = request.data.get("photo_url")
         latitude = request.data.get("latitude")
         longitude = request.data.get("longitude")
-        address = request.data.get("address")  # Yeni satır: opsiyonel adres
+        address = request.data.get("address")
 
         if not all([photo_url, latitude, longitude]):
             return Response({"error": "Tüm alanlar gerekli"}, status=status.HTTP_400_BAD_REQUEST)
 
-        report = FireReport.objects.create(
-            user=user,
-            photo_url=photo_url,
-            latitude=latitude,
-            longitude=longitude,
-            address=address if address else None  # Opsiyonel, boşsa None
-        )
+        # Fotoğrafı URL'den indir
+        try:
+            response = requests.get(photo_url)
+            response.raise_for_status()
+            image_data = response.content
+        except requests.RequestException as e:
+            return Response({"error": "Fotoğraf indirilemedi", "detail": str(e)}, status=status.HTTP_400_BAD_REQUEST)
 
-        return Response({"message": "İhbar başarıyla oluşturuldu", "report_id": report.id}, status=status.HTTP_201_CREATED)
+        # Gemini ile yangın analizi
+        try:
+            prompt = """
+            Bu görselde yangın, duman veya alev var mı? Lütfen dikkatlice inceleyin.
+            Yanıtınızı şu formatta verin: 
+            "SONUÇ: EVET" - Eğer yangın, duman veya alev tespit ederseniz
+            "SONUÇ: HAYIR" - Eğer yangın, duman veya alev tespit etmezseniz
+            Ardından kısa bir açıklama ekleyin.
+            """
 
+            contents = [
+                prompt,
+                genai.types.Part.from_bytes(data=image_data, mime_type="image/jpeg"),
+            ]
+
+            response = client.models.generate_content(
+                model="gemini-2.0-flash-exp-image-generation",
+                contents=contents,
+            )
+
+            # Gemini yanıtını analiz et
+            response_text = response.text if response.text else ""
+            
+            # SONUÇ: EVET veya SONUÇ: HAYIR formatını kontrol et
+            if "SONUÇ: EVET" in response_text:
+                # Yangın tespit edildi - ihbar oluştur
+                report = FireReport.objects.create(
+                    user=user,
+                    photo_url=photo_url,
+                    latitude=latitude,
+                    longitude=longitude,
+                    address=address if address else None
+                )
+                
+                return Response({
+                    "message": "Yangın ihbarı başarıyla oluşturuldu", 
+                    "report_id": report.id,
+                    "gemini_response": response_text
+                }, status=status.HTTP_201_CREATED)
+                
+            else:
+                # Yangın tespit edilmedi
+                return Response({
+                    "error": "Yangın tespit edilmedi, ihbar yapılamaz.",
+                    "detail": response_text
+                }, status=status.HTTP_400_BAD_REQUEST)
+
+        except Exception as e:
+            return Response({
+                "error": "Yangın analiz hatası", 
+                "detail": str(e)
+            }, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
+        
 class UpdatePushTokenView(APIView):
     def patch(self, request):
         auth_header = request.headers.get("Authorization")

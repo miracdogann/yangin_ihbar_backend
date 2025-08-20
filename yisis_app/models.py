@@ -51,6 +51,7 @@ class FireReport(models.Model):
     address = models.CharField("Adres", max_length=500, blank=True, null=True)  # Burayı ekledik
     is_confirmed = models.BooleanField(default=False)
 
+    description = models.TextField("Açıklama", blank=True, null=True)
     def __str__(self):
         return f"Yangın İhbarı - {self.user.user_name_surname} ({self.timestamp.strftime('%Y-%m-%d %H:%M')})"
     class Meta:
